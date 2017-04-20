@@ -130,6 +130,23 @@
       <Name>DigitalHolo.Repositories</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TestImages\NZ1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TestImages\NZ2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TestImages\NZ3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TestImages\NZ4.bmp" />
+    <Resource Include="TestImages\NZ5.bmp" />
+    <Resource Include="TestImages\NZ6.bmp" />
+    <Resource Include="TestImages\NZ7.bmp" />
+    <Resource Include="TestImages\NZ8.bmp" />
+    <Resource Include="TestImages\NZ9.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Accord.3.4.0\build\Accord.targets" Condition="Exists('..\packages\Accord.3.4.0\build\Accord.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
